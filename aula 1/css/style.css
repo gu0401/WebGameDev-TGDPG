@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+h1, h2, h3, li, p{
+    font-family: 'Silkscreen', cursive;
+}
+
+h1 {
+            color: rgb(104, 0, 202);
+        }
+h2 {
+            color: rgb(96, 27, 160);
+        }
+h3 {
+            color: rgb(159, 119, 197);
+        }
+p {
+    color: #2e004d;
+}
