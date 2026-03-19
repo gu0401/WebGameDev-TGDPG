@@ -1,19 +1,23 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap');
 
-h1, h2, h3, li, p{
-    font-family: 'Silkscreen', cursive;
+*{
+    font-family: 'Dokdo', cursive;
 }
 
 h1 {
             color: rgb(104, 0, 202);
+            text-align:center;
         }
 h2 {
             color: rgb(96, 27, 160);
+            text-align:center;
         }
 h3 {
             color: rgb(159, 119, 197);
+            text-align:center;
         }
+
 p {
     color: #2e004d;
 }
