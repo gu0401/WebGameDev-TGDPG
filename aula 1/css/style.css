@@ -1,8 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap');
 
+
+
 *{
-    font-family: 'Dokdo', cursive;
+    font-family: "Amarante", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 h1 {
