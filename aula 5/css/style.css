@@ -1,9 +1,24 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.container {
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #333;
+    color: #dc143c;
 }
  
-td {
-    margin: 80px;
+h2 {
+    margin: 10px 0 20px;
+    color: #dc143c;
 }
+ 
+.box {
+    width: 200px;
+    height: 100px;
+    font-weight: 900;
+    padding: 10px;
+    color: #fff;
+}
+ 
+.box-um {background-color: #314a59;}
+.box-dois {background-color: #213c4d;}
+.box-tres {background-color: #3379a5;}

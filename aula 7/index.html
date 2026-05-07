@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario dos Pikomon</title>
+    <link rel="stylesheet" href="/aula 7/css/style.css">
+</head>
+<body>
+    <h1>Formulário Pokemon</h1>
+    <form name="forms" id="forms" action="" method="">
+        <fieldset>
+            <legend>Treinador Pokemon</legend>
+
+            <div class="form-information">
+            <label for="name">Seu nome de Treinador:</label>
+            <input type="text" id="name" required autofocus>
+            </div>
+
+            <div class="form-information">
+            <label for="RG">RG de Treinador:</label>
+            <input type="file" id="RG">
+            </div>
+
+            <div class="form-information">
+                <label for="pikomonfav">Pokemon Favorito:</label>
+                <input type="text" id="pikomonfav">
+            </div>
+
+            <div class="form-information">
+                <label for="segredo">Segredo Pokemon:</label>
+                <input type="password" id="segredo">
+            </div>
+
+            <div class="form-information">
+                <label for="data">Data da viagem para Paldea</label>
+                <input type="date" id="data">
+            </div>
+
+            <div class="form-information">
+                <label for="email">Insira o dia da sua batalha Pokemon</label>
+                <input type="email" id="email">
+            </div>
+
+            <div class="form-information">
+                <label for="number">Quantidade de Pokemons que você tem:</label>
+                <input type="number" id="number">
+            </div>
+
+            <div class="form-information">
+                <label for="range">O quão feliz você está?</label>
+                <input type="range" id="range" step="25">
+            </div>
+
+            <div class="form-information">
+                <label for="cidades">Sua cidade Pokemon:</label>
+                <input list="cidades" id="input-area" name="cidades">
+                <datalist id="cidades">
+                    <option value="Pallet Town">
+                    <option value="Viridian City">
+                    <option value="Pewter City">
+                    <option value="Cerulean City">
+                    <option value="Vermilion City">
+                    <option value="Lavender Town">
+                    <option value="Celadon City">
+                    <option value="Fuchsia City">
+                    <option value="Saffron City">
+                    <option value="Cinnabar Island">
+                </datalist>
+            </div>
+
+            <div class="form-information">
+                <label for="cidades">Escolha seu tipo favorito</label>
+                    <select name="tipo-pokemon" id="tipo-pokemon">
+                        <option value="1">Normal</option>
+                        <option value="2">Fogo</option>
+                        <option value="3">Água</option>
+                        <option value="4">Grama</option>
+                        <option value="5">Elétrico</option>
+                        <option value="6">Gelo</option>
+                        <option value="7">Sombrio</option>
+                        <option value="8">Metálico</option>
+                        <option value="9">Fada</option>
+                        <option value="10">Inseto</option>
+                        <option value="11">Fantasma</option>
+                        <option value="12">Dragão</option>
+                        <option value="13">Lutador</option>
+                        <option value="14">Veneno</option>
+                        <option value="15">Terra</option>
+                        <option value="16">Psíquico</option>
+                        <option value="17">Pedra</option>
+                        <option value="18">Voador</option>
+                    </select>
+            </div>
+
+            <div class="form-information-column">
+                    <h4>Escolha seu(s) amigo(s) favorito(s):</h4>
+ 
+                    <div class="form-information">
+                        <input type="checkbox" id="option1" name="amigo" value="1">
+                        <label for="option1">Planta</label>
+                    </div>
+ 
+                    <div class="form-information">
+                        <input type="checkbox" id="option2" name="amigo" value="2">
+                        <label for="option2">Água</label>
+                    </div>
+ 
+                    <div class="form-information">
+                        <input type="checkbox" id="option3" name="amigo" value="3">
+                        <label for="option3">Fogo</label>
+                    </div>
+
+                    <div class="form-information">
+                        <input type="checkbox" id="option4" name="amigo" value="4">
+                        <label for="option4">Sombrio</label>
+                    </div>
+            </div>
+            
+            <div class="form-information-column">
+                    <h4>Escolha seu Pokemon inicial:</h4>
+ 
+                    <div class="form-information">
+                        <input type="radio" id="first" name="pokemon" value="1">
+                        <label for="first">Quaxly</label>
+                    </div>
+ 
+                    <div class="form-information">
+                        <input type="radio" id="second" name="pokemon" value="2">
+                        <label for="second">Sprigatito</label>
+                    </div>
+ 
+                    <div class="form-information">
+                        <input type="radio" id="third" name="pokemon" value="3">
+                        <label for="third">Fuecoco</label>
+                    </div>
+                </div>
+        </fieldset>
+
+          <fieldset>
+                <legend>Marque sua batalha Pokemon</legend>
+ 
+                <div class="form-information">
+                    <label for="date-battle">Insira o dia da sua batalha Pokemon</label>
+                    <input type="date" id="date-battle">
+                </div>
+ 
+                <div class="form-information">
+                    <label for="time">Insira o horário da sua batalha Pokemon</label>
+                    <input type="time" id="time">
+                </div>
+ 
+                <div class="form-information">
+                    <label for="date-time-local">Insira a data e hora da sua batalha Pokemon</label>
+                    <input type="datetime-local" id="date-time-local">
+                </div>
+ 
+                <div class="form-information">
+                    <label for="month">Insira o mês da sua batalha Pokemon</label>
+                    <input type="month" id="month">
+                </div>
+               
+                <div class="form-information">
+                    <label for="color">Escolha a cor de seu time Pokemon</label>
+                    <input type="color" id="color">
+                </div>
+
+                <div class="form-information">
+                    <label for="message">Escreva seu convite para seu oponente</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+            </fieldset>
+ 
+            <input type="submit" id="enviar" value="Enviar Dados">
+            <input type="reset" id="limpar" value="Limpar Dados">
+            </fieldset>
+    </form></form>
+</body>
+</html>
