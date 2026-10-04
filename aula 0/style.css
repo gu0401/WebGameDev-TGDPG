@@ -1,0 +1,100 @@
+  :root{
+    --roxo: #7C3AED;
+    --roxo-hover: #6D28D9;
+    --roxo-claro: #A78BFA;
+  }
+
+  body{
+    padding-top: 70px;
+    background: linear-gradient(
+      135deg,
+      #09000f 0%,
+      #160022 35%,
+      #24003b 65%,
+      #09000f 100%
+    );
+    background-attachment: fixed;
+    min-height: 100vh;
+  }
+
+  .produto-capa{
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  /* Botões roxos */
+  .btn-primary{
+    background-color: var(--roxo);
+    border-color: var(--roxo);
+  }
+
+  .btn-primary:hover{
+    background-color: var(--roxo-hover);
+    border-color: var(--roxo-hover);
+  }
+
+  /* Links da navbar */
+  .nav-link:hover{
+    color: var(--roxo-claro) !important;
+  }
+
+  /* Títulos */
+  h1, h2{
+    color: white;
+  }
+
+  /* Cards */
+  .card{
+    background-color: rgba(0, 0, 0, 0.75) !important;
+    border-color: rgba(167, 139, 250, 0.3) !important;
+  }
+
+  /* Accordion */
+  .accordion-item{
+    background-color: rgba(0, 0, 0, 0.75) !important;
+  }
+
+  .accordion-button:not(.collapsed){
+    background-color: #2a0b42 !important;
+    color: white !important;
+  }
+
+  .accordion-button:focus{
+    box-shadow: 0 0 0 0.25rem rgba(124, 58, 237, 0.25);
+  }
+
+  /* Campo de contato */
+  .form-control{
+    background-color: #111;
+    border-color: #444;
+    color: white;
+  }
+
+  .form-control:focus{
+    background-color: #111;
+    border-color: var(--roxo);
+    color: white;
+    box-shadow: 0 0 0 0.25rem rgba(124, 58, 237, 0.25);
+  }
+
+  .form-control::placeholder{
+    color: #777;
+  }
+
+  /* Botão Enviar */
+  .btn-success{
+    background-color: var(--roxo);
+    border-color: var(--roxo);
+  }
+
+  .btn-success:hover{
+    background-color: var(--roxo-hover);
+    border-color: var(--roxo-hover);
+  }
+
+  /* Modal */
+  .modal-content{
+    box-shadow: 0 0 30px rgba(124, 58, 237, 0.25);
+  }
+</style>

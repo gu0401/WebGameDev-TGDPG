@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DELTARUNE HUB</title>
+    <link rel="stylesheet" href="/checkpoint03/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>DELTARUNE HUB</h1>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="https://store.steampowered.com/app/1671210/DELTARUNE/" target="_blank">Steam</a></li>
+                </ul>
+            </nav>
+            <button class="deltarune-btn">
+                <a href="https://deltarune.wiki/" target="_blank">Link da Wiki</a>
+                <img class="wikiimg" src="/checkpoint03/img/image.png" alt="Kris img">
+            </button>
+        </div>
+    </header>
+ 
+
+    <main>
+        <section class="hero">
+            <h2>O que é Deltarune ?</h2>
+            <p>Deltarune é o sucessor oficial de Undertale , o RPG clássico cult! É um mundo paralelo com novos personagens e músicas, personagens que retornam e um sistema de batalha aprimorado . Junte-se a Kris , Susie e Ralsei em sua jornada para restaurar o equilíbrio entre a Luz e as Trevas!</p>
+        </section>
+
+        <section id="cursos" class="courses-section">
+            <h2>Tabela dos personagens principais</h2>
+            
+            <table class="courses-table">
+                <thead>
+                    <tr>
+                        <th>Personagem</th>
+                        <th>Força Principal</th>
+                        <th>Tipo de Magia</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Kris</td>
+                        <td>Espada Dourada</td>
+                        <td>Física / Corte</td>
+                    </tr>
+                    <tr>
+                        <td>Susie</td>
+                        <td>Machado Gigante</td>
+                        <td>Física / Impacto</td>
+                    </tr>
+                    <tr>
+                        <td>Ralsei</td>
+                        <td>Magia Escura</td>
+                        <td>Magia / Cura</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+ 
+        <section id="inscricao" class="registration-section">
+            <h2>Quiz/Formulário de sua Jornada em Deltarune</h2>
+            
+            <form class="registration-form">
+
+                <div class="form-group">
+                    <label for="nome">Qual é seu nome no submundo?</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+ 
+                <div class="form-group">
+                    <label for="email">Como podemos encontrá-lo?</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+ 
+                <div class="form-group">
+                    <label for="personagem">Qual é seu atributo?</label>
+                    <select id="personagem" name="personagem" required>
+                        <option value="">Escolha seu atributo...</option>
+                        <option value="op1">Força Pura</option>
+                        <option value="op2">Magia Obscura</option>
+                        <option value="op3">Velocidade Avassaladora</option>
+                        <option value="op4">Tanque</option>
+                        <option value="op5">Suporte</option>
+                    </select>
+                </div>
+
+                <div class="form-group checkbox">
+                    <input type="checkbox" id="termos" name="termos" required>
+                    <label for="termos">Aceito os termos e condições</label>
+                </div>
+ 
+                <button type="submit" class="submit-button">Enviar</button>
+            </form>
+        </section>
+    </main>
+ 
+    <article class="testimonial">
+        <h3>Detalhe</h3>
+        <p>Cada escolha deixa uma marca</p>
+    </article>
+ 
+    <footer>
+        <p> © 2026 HUB. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

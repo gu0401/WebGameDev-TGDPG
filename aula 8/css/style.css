@@ -1,0 +1,51 @@
+/* fontes do projeto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+ 
+.container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: 1fr 4fr 4fr 1fr;
+    grid-template-areas:
+    "navbar navbar aside"
+    "section section aside"
+    "section section aside"
+    "footer footer footer";
+}
+ 
+.item {
+    background-color: red;
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 10px;
+}
+ 
+.item-1, .item-2, .item-3, .item-4 {
+    padding: 16px;
+}
+ 
+.navbar {
+    grid-area: navbar;
+}
+ 
+.aside {
+    grid-area: aside;
+}
+ 
+.section {
+    grid-area: section;
+}
+ 
+.footer {
+    grid-area: footer;
+}
+
+@media (max-width: 600px) {
+.container{
+    grid-template-rows: 1fr 1fr 5fr 1fr;
+    grid-template-areas:
+    "navbar navbar navbar"
+    "aside aside aside"
+    "section section section"
+    "footer footer footer";
+}
+}

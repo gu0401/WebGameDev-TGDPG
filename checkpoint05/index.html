@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fliperama Digital</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+<style>
+  :root{
+    --bs-primary: #481999;
+    --bs-primary-rgb: 124, 58, 237;
+  }
+  body{
+    padding-top: 90px;
+  }
+  .produto-capa{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+  }
+</style>
+</head>
+
+<body class="bg-dark text-light">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#"><i class="bi bi-joystick"></i> Fliperama Digital</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Alternar navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMain">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+      </ul>
+      <button type="button" class="btn btn-primary ms-lg-3" data-bs-toggle="modal" data-bs-target="#modalPromo">
+        Promoção Especial
+      </button>
+    </div>
+  </div>
+</nav>
+
+<header class="container py-5 text-center">
+  <h1 class="fw-bold">Seu próximo jogo favorito está aqui</h1>
+  <p class="lead text-secondary">Jogos digitais com entrega instantânea e os melhores preços.</p>
+</header>
+
+<section class="container py-5" id="produtos">
+  <h2 class="mb-4">Nossos Produtos</h2>
+  <div class="row g-4">
+
+    <div class="col-12 col-md-4">
+      <div class="card bg-black text-light h-100 border-secondary">
+        <img src="/checkpoint05/img/758ab0b61205081da2466386940752c70e0e5ea43bd39e8b9b13eaa455c69b7e.avif" alt="Capa de Among Us" class="produto-capa">
+        <div class="card-body">
+          <h5 class="card-title"><i class="bi bi-pc-display"></i> - Among Us</h5>
+          <p class="card-text text-secondary">Encontre o impostor na nave ou elimine a tripulação em partidas online de até 15 jogadores. Mentiras, trabalho em equipe e muita traição!</p>
+          <p class="fw-bold">R$ 14,99</p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalPromo">Ver Promoção</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-4">
+      <div class="card bg-black text-light h-100 border-secondary">
+        <img src="/checkpoint05/img/SLIcon.webp" alt="Capa de FNAF: Sister Location" class="produto-capa">
+        <div class="card-body">
+          <h5 class="card-title"><i class="bi bi-pc-display"></i> - FNAF: Sister Location</h5>
+          <p class="card-text text-secondary">Sobreviva ao turno da noite como técnico de uma instalação subterrânea sombria. Mova-se entre salas e encare novos e terríveis animatrônicos.</p>
+          <p class="fw-bold">R$ 16,59</p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalPromo">Ver Promoção</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-4">
+      <div class="card bg-black text-light h-100 border-secondary">
+        <img src="/checkpoint05/img/capsule_616x353.jpg" alt="Capa de Minecraft Dungeons 2" class="produto-capa">
+        <div class="card-body">
+          <h5 class="card-title"><i class="bi bi-xbox"></i> - Minecraft Dungeons 2</h5>
+          <p class="card-text text-secondary">Explore masmorras aleatórias com até 4 amigos em modo cooperativo. Conquiste saques lendários e derrote novas hordas de monstros.</p>
+          <p class="fw-bold">R$ 89,00</p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalPromo">Ver Promoção</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="container py-5" id="faq">
+  <h2 class="mb-4"><i class="bi bi-question-circle-fill"></i> Perguntas Frequentes</h2>
+  <div class="accordion" id="accordionFaq">
+
+    <div class="accordion-item bg-black text-light border-secondary">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed bg-black text-light" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+          Como funciona a entrega dos jogos?
+        </button>
+      </h2>
+      <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
+        <div class="accordion-body text-secondary">
+          A entrega é digital e instantânea. Assim que o pagamento é confirmado, o código do jogo é enviado para o seu e-mail.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item bg-black text-light border-secondary">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed bg-black text-light" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+          Posso pedir reembolso?
+        </button>
+      </h2>
+      <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
+        <div class="accordion-body text-secondary">
+          Sim, em até 7 dias após a compra, desde que o código ainda não tenha sido utilizado.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item bg-black text-light border-secondary">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed bg-black text-light" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+          Os jogos funcionam em qualquer plataforma?
+        </button>
+      </h2>
+      <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#accordionFaq">
+        <div class="accordion-body text-secondary">
+          Cada produto informa as plataformas compatíveis na página de compra. A maioria está disponível para PC e consoles atuais.
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="container py-5" id="contato">
+  <h2 class="mb-4"><i class="bi bi-chat-dots-fill"></i> Fale Conosco</h2>
+  <form class="col-lg-6" onsubmit="return false;">
+    <div class="mb-3">
+      <label for="nome" class="form-label">Nome</label>
+      <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">E-mail</label>
+      <input type="email" class="form-control" id="email" placeholder="seu@email.com">
+    </div>
+    <div class="mb-3">
+      <label for="mensagem" class="form-label">Mensagem</label>
+      <textarea class="form-control" id="mensagem" rows="4" placeholder="Como podemos ajudar?"></textarea>
+    </div>
+    <button type="submit" class="btn btn-success">Enviar</button>
+  </form>
+</section>
+
+<footer class="bg-black text-secondary text-center py-4">
+  <div class="container">
+    Fliperama Digital &copy; 2026 — Todos os direitos reservados.
+  </div>
+</footer>
+
+<div class="modal fade" id="modalPromo" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content bg-black text-light border-secondary">
+      <div class="modal-header border-secondary">
+        <h5 class="modal-title"><i class="bi bi-fire"></i> Promoção Especial</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+      <div class="modal-body">
+        Ganhe 20% de desconto em qualquer jogo comprando hoje! Use o cupom <strong>FLIPERAMA20</strong> no checkout.
+      </div>
+      <div class="modal-footer border-secondary">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary">Quero aproveitar!!</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+</html>
